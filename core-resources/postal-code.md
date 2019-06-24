@@ -29,7 +29,7 @@ Your authorization API key from your dashboard.
 
 {% api-method-query-parameters %}
 {% api-method-parameter name="postal\_code" type="string" required=true %}
-The postal code of the school you are requesting.
+The postal code of the school you are requesting.  
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
 {% endapi-method-request %}
@@ -37,7 +37,7 @@ The postal code of the school you are requesting.
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
 {% api-method-response-example-description %}
-This example response was from requesting "Palo Alto High" in the name endpoint.
+This example response was from requesting "90210" in the postalcode endpoint.
 {% endapi-method-response-example-description %}
 
 {% code-tabs %}
@@ -46,32 +46,63 @@ This example response was from requesting "Palo Alto High" in the name endpoint.
 {
     "data": [
         {
-            "id": 12489,
-            "name": "Palo Alto High",
-            "level": "High",
-            "state_name": "California",
+            "id": 6962,
+            "name": "El Rodeo Elementary",
+            "level": "Elementary",
+            "state": "CA",
             "country_code": "US",
             "addresses": {
                 "mailing": {
-                    "street1": "50 Embarcadero Rd.",
+                    "street1": "605 N. Whittier Dr.",
                     "street2": "",
                     "street3": "",
-                    "city": "Palo Alto",
+                    "city": "Beverly Hills",
                     "state": "CA",
-                    "postal": "94301",
-                    "postal_4": "2321"
+                    "postal": "90210",
+                    "postal_4": "3112"
                 },
                 "physical": {
-                    "street1": "50 Embarcadero Rd.",
+                    "street1": "605 N. Whittier Dr.",
                     "street2": "",
                     "street3": "",
-                    "city": "Palo Alto",
+                    "city": "Beverly Hills",
                     "state": "CA",
-                    "postal": "94301",
-                    "postal_4": "2321"
+                    "postal": "90210",
+                    "postal_4": "3112"
                 }
             },
-            "phone_number": "(650)329-3701",
+            "phone_number": "(310)229-3670",
+            "website": "",
+            "school_type": "Regular School",
+            "school_type_id": "1"
+        },
+        {
+            "id": 6963,
+            "name": "Hawthorne Elementary",
+            "level": "Elementary",
+            "state": "CA",
+            "country_code": "US",
+            "addresses": {
+                "mailing": {
+                    "street1": "624 N. Rexford Dr.",
+                    "street2": "",
+                    "street3": "",
+                    "city": "Beverly Hills",
+                    "state": "CA",
+                    "postal": "90210",
+                    "postal_4": "3312"
+                },
+                "physical": {
+                    "street1": "624 N. Rexford Dr.",
+                    "street2": "",
+                    "street3": "",
+                    "city": "Beverly Hills",
+                    "state": "CA",
+                    "postal": "90210",
+                    "postal_4": "3312"
+                }
+            },
+            "phone_number": "(310)229-3675",
             "website": "",
             "school_type": "Regular School",
             "school_type_id": "1"
