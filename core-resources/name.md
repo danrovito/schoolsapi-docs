@@ -1,3 +1,7 @@
+---
+description: Endpoint to look up a school by it's name.
+---
+
 # Name
 
 {% hint style="info" %}

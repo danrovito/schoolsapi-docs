@@ -1,3 +1,7 @@
+---
+description: Endpoint to lookup schools by postal code.
+---
+
 # Postal Code
 
 {% hint style="info" %}
