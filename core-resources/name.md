@@ -33,12 +33,50 @@ The state of the school. This can help narrow your search.
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
 {% api-method-response-example-description %}
-
+This example response was from requesting "Palo Alto High" in the name endpoint.
 {% endapi-method-response-example-description %}
 
+{% code-tabs %}
+{% code-tabs-item title="Name\_Response" %}
 ```
-
+{
+    "data": [
+        {
+            "id": 12489,
+            "name": "Palo Alto High",
+            "level": "High",
+            "state_name": "California",
+            "country_code": "US",
+            "addresses": {
+                "mailing": {
+                    "street1": "50 Embarcadero Rd.",
+                    "street2": "",
+                    "street3": "",
+                    "city": "Palo Alto",
+                    "state": "CA",
+                    "postal": "94301",
+                    "postal_4": "2321"
+                },
+                "physical": {
+                    "street1": "50 Embarcadero Rd.",
+                    "street2": "",
+                    "street3": "",
+                    "city": "Palo Alto",
+                    "state": "CA",
+                    "postal": "94301",
+                    "postal_4": "2321"
+                }
+            },
+            "phone_number": "(650)329-3701",
+            "website": "",
+            "school_type": "Regular School",
+            "school_type_id": "1"
+        }
+    ]
+}
 ```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 {% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
