@@ -2,7 +2,7 @@
 
 Name is an object representing the name of the school you want to look up.  The API allows you to lookup the schools by name with various parameters.  Don't forget to check your country code during lookup of school.
 
-{% api-method method="get" host="https://schoolsapi.com/v1/:country\_code/" path="" %}
+{% api-method method="get" host="https://schoolsapi.com/v1/:country\_code" path="" %}
 {% api-method-summary %}
 Name
 {% endapi-method-summary %}
