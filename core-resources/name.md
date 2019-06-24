@@ -1,7 +1,5 @@
 # Name
 
-Name is an object representing the name of the school you want to look up.  The API allows you to lookup the schools by name with various parameters.  Don't forget to check your country code during lookup of school.
-
 {% hint style="info" %}
 The base URL for all requests is https://schoolsapi.com/api/v1
 {% endhint %}

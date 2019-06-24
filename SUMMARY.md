@@ -9,4 +9,5 @@
 ## Core Resources
 
 * [Name](core-resources/name.md)
+* [Postal Code](core-resources/postal-code.md)
 
