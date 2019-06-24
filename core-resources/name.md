@@ -33,7 +33,7 @@ The name of the school you are requesting.
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="state" type="string" required=false %}
-The state of the school. This can help narrow your search.
+The state or province of the school. This can help narrow your search.
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
 {% endapi-method-request %}
