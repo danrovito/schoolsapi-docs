@@ -6,5 +6,7 @@
 
 * [Authentication](introduction/untitled.md)
 
-## API
+## Core Resources
+
+* [Name](core-resources/name.md)
 
