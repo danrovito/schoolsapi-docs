@@ -4,7 +4,7 @@
 The base URL for all requests is https://schoolsapi.com/api/v1
 {% endhint %}
 
-{% api-method method="get" host="https://schoolsapi.com" path="/api/v1/name/country\_code" %}
+{% api-method method="get" host="https://schoolsapi.com" path="/api/v1/:country\_code/name/" %}
 {% api-method-summary %}
 Name
 {% endapi-method-summary %}
