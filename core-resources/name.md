@@ -19,6 +19,12 @@ This method allows you to lookup a school by name.
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
+{% api-method-headers %}
+{% api-method-parameter name="X-Auth-Token" type="string" required=true %}
+Your authorization API key from your dashboard.
+{% endapi-method-parameter %}
+{% endapi-method-headers %}
+
 {% api-method-query-parameters %}
 {% api-method-parameter name="name" type="string" required=true %}
 The name of the school you are requesting.
