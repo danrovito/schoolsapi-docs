@@ -6,6 +6,7 @@
 
 * [Authentication](introduction/untitled.md)
 * [Errors](introduction/errors.md)
+* [Versioning](introduction/versioning.md)
 
 ## Core Resources
 
