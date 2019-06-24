@@ -5,6 +5,7 @@
 ## Introduction
 
 * [Authentication](introduction/untitled.md)
+* [Errors](introduction/errors.md)
 
 ## Core Resources
 
