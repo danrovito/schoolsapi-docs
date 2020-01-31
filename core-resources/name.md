@@ -5,7 +5,7 @@ description: Endpoint to look up a school by it's name.
 # Name
 
 {% hint style="info" %}
-The base URL for all requests is https://schoolsapi.com/api/v1
+The base URL for all requests is [https://schoolsapi.com/api/v1](https://schoolsapi.com/api/v1)
 {% endhint %}
 
 {% api-method method="get" host="https://schoolsapi.com" path="/api/v1/:country\_code/name/" %}
@@ -14,14 +14,14 @@ Name
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This method allows you to lookup a school by name.
+This method allows you to lookup a school by name. We currently support all of the US and Ontario, Canada.
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
 {% api-method-parameter name="country\_code" type="string" required=true %}
- The country you are looking for the school in. \(ex. us, ca, etc.\)
+The country you are looking for the school in. \(ex. us, ca, etc.\)
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
@@ -48,9 +48,9 @@ The state or province of the school. This can help narrow your search.
 This example response was from requesting "Palo Alto High" in the name endpoint.
 {% endapi-method-response-example-description %}
 
-{% code-tabs %}
-{% code-tabs-item title="Name\_Response" %}
-```
+{% tabs %}
+{% tab title="Name\_Response" %}
+```text
 {
     "data": [
         {
@@ -87,8 +87,8 @@ This example response was from requesting "Palo Alto High" in the name endpoint.
     ]
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 {% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
